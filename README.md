@@ -1,36 +1,3 @@
-![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
-
-# LAB | Thinking in React
-
-<!-- ![image](https://media.giphy.com/media/AnRrZMk7NNf4oF8IzS/giphy.gif) -->
-
-We believe that up to this point we all understand that **in React everything is a component**. A React app is built of components, usually a lot of them, and they are _usually_ nested into one another. To refresh our memory, **a component is a reusable piece of code, which defines how certain features should look and behave on the UI**.
-Now one more time, we will be _thinking and acting_ in that direction. Maybe through past two days we still didn't see how important is to **plan** our apps prior to building them but now we will emphasize this approach as well.
-In this exercise, we’ll walk you through the _thinking process_ of building a searchable product data table using React.
-
-## Setup
-
-- Fork this repo
-- Clone this repo
-
-```shell
-$ cd lab-thinking-in-react
-$ npm install
-$ npm start
-```
-
-## Submission
-
-- Upon completion, run the following commands:
-
-  ```
-  git add .
-  git commit -m "done"
-  git push origin master
-  ```
-
-- Create Pull Request so your TAs can check up your work.
-
 ## Introduction
 
 In `src` folder, you can find `data.json` file with some data about products of a random store.
