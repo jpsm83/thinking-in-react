@@ -15,9 +15,11 @@ export default class FilterableProductTable extends Component {
       });
       return;
     }
+
     const newProductsList = this.props.products.filter((product) => {
       return product.name.toLowerCase().includes(inputSearch.toLowerCase());
     });
+
     this.setState({
       productsList: newProductsList,
     });
