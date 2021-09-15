@@ -9,6 +9,7 @@ export default class SearchBar extends Component {
     await this.setState({
       input: event.target.value,
     });
+    // uses the father method props.filteredProducts and pass the 'input' to it
     this.props.filteredProducts(this.state.input);
   };
 
